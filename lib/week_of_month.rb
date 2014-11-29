@@ -46,7 +46,7 @@ class Time
   include WeekOfMonth::Month
   include WeekOfMonth::Week
   include WeekOfMonth::Year
-  
+
   def leap?
     self.to_date.leap?
   end
